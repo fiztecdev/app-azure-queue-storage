@@ -7,7 +7,7 @@ namespace QueueApp
 {
     class Program
     {
-        private const string ConnectionString = "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=fiztecdev01;AccountKey=NT7voj70ikQbwdHDl8yTATdIx7vJh+0sa1mZsYtxu26GvsTnICckMrNQZPZTw8ftbR8ek6aHgzc9d01GOygUBQ==";
+        private const string ConnectionString = "your connection string";
         static CloudQueue GetQueue()
         {
             CloudStorageAccount storageAccount = CloudStorageAccount.Parse(ConnectionString);
